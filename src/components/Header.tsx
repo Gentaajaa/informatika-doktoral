@@ -37,7 +37,7 @@ const Header = () => {
           <div className="flex items-center mb-4 lg:mb-0">
             {/* Replace the src below with your actual logo file path in /public */}
             <img
-              src="/H_BW_BG_B2.png"
+              src="/V_BW_BG_B.png"
               alt="UII Logo"
               className="h-16 w-auto mr-4"
               // Fallback if no image exists yet:

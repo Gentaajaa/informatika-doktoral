@@ -8,24 +8,24 @@ const StructureSection = () => {
     {
       name: "Izzati Muhimmah, Ph.D",
       role: "Ketua Program Studi",
-      image: "https://ui-avatars.com/api/?name=Izzati+Muhimmah&background=0D47A1&color=fff&size=256" 
+      image: "/photo_profile/Izzati-Muhimmah.png"
     },
     {
       name: "Luthfi Usman",
       role: "Staff Keuangan",
-      image: "https://ui-avatars.com/api/?name=Luthfi+Usman&background=1E88E5&color=fff&size=256"
+      image: "/photo_profile/Lutfhi-Usman.png"
     },
     {
       name: "Farras Rana",
       role: "Staff Administrasi",
-      image: "https://ui-avatars.com/api/?name=Farras+Rana&background=1E88E5&color=fff&size=256"
+      image: "/photo_profile/Farras-Rana.png"
     }
   ];
 
   return (
     <section className="bg-white py-16 border-t border-gray-200">
       <div className="container mx-auto px-4 text-center">
-        
+
         {/* Title */}
         <h2 className="text-3xl font-bold text-blue-900 mb-2">
           Struktur Program Studi
@@ -36,12 +36,12 @@ const StructureSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
           {teamMembers.map((member, index) => (
             <div key={index} className="flex flex-col items-center group">
-              
+
               {/* Image Container with Hover Effect */}
               <div className="w-48 h-48 mb-6 relative rounded-full overflow-hidden border-4 border-gray-100 shadow-lg group-hover:border-blue-100 transition-colors duration-300">
-                <img 
-                  src={member.image} 
-                  alt={member.name} 
+                <img
+                  src={member.image}
+                  alt={member.name}
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
