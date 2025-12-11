@@ -73,7 +73,7 @@ const MainContent = () => {
           <div className="p-6 text-center text-gray-700">
             <FaUniversity className="inline-block text-3xl mb-2 text-blue-900" />
             <p className="font-semibold">Dr. - Doktor (S3)</p>
-            <p className="text-sm text-gray-500 mt-1">Program Studi Informatika [cite: 1]</p>
+            <p className="text-sm text-gray-500 mt-1">Program Studi Informatika</p>
           </div>
         </div>
 
@@ -88,14 +88,14 @@ const MainContent = () => {
               <div>
                 <p className="font-bold">Biaya Pendidikan</p>
                 <p>Rp 15.000.000 / semester</p>
-                <p className="text-xs text-gray-500">(Dapat diangsur 2x) [cite: 21]</p>
+                <p className="text-xs text-gray-500">(Dapat diangsur 2x)</p>
               </div>
             </div>
             <div className="border-t pt-3 flex items-start">
               <FaMoneyBillWave className="mt-1 mr-3 text-blue-900 flex-shrink-0" />
               <div>
                 <p className="font-bold">Biaya Pendaftaran</p>
-                <p>Rp 1.000.000 [cite: 22]</p>
+                <p>Rp 1.000.000</p>
               </div>
             </div>
           </div>
